@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackOClock - Hackathon</title>
+    <meta name="description" content="Join HackOClock, an exciting hackathon event for developers and innovators">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Hack<span>O'</span>Clock</h1>
+                </div>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#tracks">Tracks</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#sponsors">Sponsors</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hack<span>O'</span>Clock</h1>
+                <p>Code Like A Googler,Innovate Like A Visionary</p>
+                <div class="countdown">
+                    <div class="time-block">
+                        <span id="days">00</span>
+                        <span class="time-label">Days</span>
+                    </div>
+                    <div class="time-block">
+                        <span id="hours">00</span>
+                        <span class="time-label">Hours</span>
+                    </div>
+                    <div class="time-block">
+                        <span id="minutes">00</span>
+                        <span class="time-label">Minutes</span>
+                    </div>
+                    <div class="time-block">
+                        <span id="seconds">00</span>
+                        <span class="time-label">Seconds</span>
+                    </div>
+                </div>
+                <div class="apply-button-container">
+                    <a 
+                        class="apply-button"
+                        href="https://hackoclock-1-c58f.devfolio.co/"
+                        data-hackathon-slug="hackoclock-1-c58f" 
+                        data-button-theme="light"
+                        style="height: 44px; width: 312px; display: block; position: relative; overflow: hidden;"
+                    >
+                                            <img 
+                                                src="src/01 (1).png" 
+                                                alt="Register"
+                                                style="position: absolute; top: 0; left: 0; width: 110%; height: 110%; object-fit: contain; pointer-events: none;"
+                                            />
+                                        </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About HackOClock</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>HackOClock is a 24-hour coding marathon where innovators, developers, and creators come together to build cutting-edge solutions. Join us for an unforgettable experience of coding, learning, and networking.</p>
+                    <p>Our mission is to provide a platform for enthusiastic developers to collaborate, innovate, and transform ideas into reality.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-users"></i> 500+ Participants</li>
+                        <li><i class="fas fa-code"></i> 24 Hours of Coding</li>
+                        <li><i class="fas fa-trophy"></i> Exciting Prizes</li>
+                        <li><i class="fas fa-lightbulb"></i> Mentorship</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div class="code-bg">
+                        <span>while(alive) {</span>
+                        <span>  code();</span>
+                        <span>  eat();</span>
+                        <span>  sleep();</span>
+                        <span>  repeat();</span>
+                        <span>}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tracks" class="tracks">
+        <div class="container">
+            <h2 class="section-title">Tracks</h2>
+            <div class="track-cards">
+                <div class="track-card">
+                    <div class="track-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI & ML</h3>
+                    <p>Build intelligent solutions using artificial intelligence and machine learning technologies.</p>
+                </div>
+                <div class="track-card">
+                    <div class="track-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>Blockchain</h3>
+                    <p>Develop decentralized applications and explore blockchain technologies.</p>
+                </div>
+                <div class="track-card">
+                    <div class="track-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Web3 Gaming</h3>
+                    <p>Create innovative gaming experiences using web3 technologies.</p>
+                </div>
+                <div class="track-card">
+                    <div class="track-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Open Innovation</h3>
+                    <p>Solve real-world problems with creative and innovative solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <h2 class="section-title">Event Schedule</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="time">Day 1 - 9:00 AM</div>
+                        <h3>Registration & Check-in</h3>
+                        <p>Get your badges and welcome kit</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="time">Day 1 - 10:00 AM</div>
+                        <h3>Opening Ceremony</h3>
+                        <p>Introduction and keynote speeches</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="time">Day 1 - 11:00 AM</div>
+                        <h3>Hacking Begins</h3>
+                        <p>Start your projects and code away!</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="time">Day 1 - 6:00 PM</div>
+                        <h3>Networking Dinner</h3>
+                        <p>Network with peers and mentors</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="time">Day 2 - 11:00 AM</div>
+                        <h3>Hacking Ends</h3>
+                        <p>Submit your projects for evaluation</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="time">Day 2 - 3:00 PM</div>
+                        <h3>Awards Ceremony</h3>
+                        <p>Winners announcement and prizes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sponsors" class="sponsors">
+        <div class="container">
+            <h2 class="section-title">Our Sponsors</h2>
+            <div class="sponsor-grid">
+                <div class="sponsor-category">
+                    <h3>Title Sponsors</h3>
+                    <div class="sponsor-logos">
+                        <div class="sponsor-logo">
+                            <img src="src/devfolio_logo.jpg" alt="DEVFOLIO LOGO">
+                        </div>
+                        <div class="sponsor-logo">
+                            <img src="src/ETHIndia.jpg" alt="ETHINDIA LOGO">
+                        </div>
+                    </div>
+                </div>
+                <div class="sponsor-category">
+                    <h3>Gold Sponsors</h3>
+                    <div class="sponsor-logos">
+                        <div class="sponsor-logo">
+                            <div class="placeholder-logo">Your Logo Here</div>
+                        </div>
+                        <div class="sponsor-logo">
+                            <div class="placeholder-logo">Your Logo Here</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sponsor-category">
+                    <h3>Silver Sponsors</h3>
+                    <div class="sponsor-logos">
+                        <div class="sponsor-logo">
+                            <div class="placeholder-logo">Your Logo Here</div>
+                        </div>
+                        <div class="sponsor-logo">
+                            <div class="placeholder-logo">Your Logo Here</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sponsor-cta">
+                <h3>Interested in sponsoring?</h3>
+                <a href="mailto:sponsor@hackoclock.com" class="btn btn-outline">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is HackOClock?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>HackOClock is a 24-hour hackathon where participants collaborate to build innovative solutions to real-world problems.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Who can participate?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Anyone with a passion for coding and innovation can participate. Students, professionals, and enthusiasts are all welcome!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is there a registration fee?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, participation in HackOClock is completely free of charge.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What should I bring?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Bring your laptop, charger, and any hardware you might need for your project. Don't forget your ID for check-in!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Will there be food?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we'll provide meals, snacks, and beverages throughout the event to keep you energized and focused.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How are the winners selected?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Projects will be judged based on innovation, technical complexity, user experience, and presentation by a panel of industry experts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Hack<span>O</span>Clock</h2>
+                    <p>Where Innovation Meets the Clock</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#tracks">Tracks</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#sponsors">Sponsors</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> info@hackoclock.com</p>
+                    <p><i class="fas fa-phone"></i> +1 123 456 7890</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HackOClock. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
